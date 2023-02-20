@@ -25,6 +25,43 @@
     font-weight: 500;
     font-display: swap;
 }
+html{
+    box-sizing: border-box;
+}
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,
+ol{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+figure{
+    margin: 0;
+}
 body{
     font-family: 'SF UI Text',sans-serif;
+    min-width: 320px;
+    min-height: 100%;
+    font-size: 20p  x;
+    font-weight: 500;
+    background-color:  #ffffff;
+    color: #000000;
+    line-height: 1;
 }
