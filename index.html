@@ -89,9 +89,72 @@
         <section class="main__section order">
             <div class="container">
                 <h2 class="order__title">Оформить предзаказ</h2>
+                <form action="#" class="order__form form">
+                    <fieldset class="form__box">
+                        <legend class="form__title-box">Персональные данные</legend>
+                        <label for="fullName" class="form__label">ФИО</label>
+                        <input type="text" class="form__input" id="fullName" name="fullName">
+
+                        <label for="phone" class="form__label">Телефон</label>
+                        <input type="text" class="form__input" id="phone" name="phone">
+
+                        <label for="email" class="form__label">E-mail</label>
+                        <input type="text" class="form__input" id="email" name="email">
+                    </fieldset>
+                    <fieldset class="form__box">
+                        <legend class="form__title-box">Адрес доставки</legend>
+                        <label for="city" class="form__label">Город</label>
+                        <input type="text" class="form__input" id="city" name="city">
+
+                        <label for="index" class="form__label">Индекс</label>
+                        <input type="text" class="form__input" id="index" name="index">
+
+                        <label for="address" class="form__label">Адрес</label>
+                        <input type="text" class="form__input" id="address" name="address">
+                    </fieldset>
+                    <fieldset class="form__box">
+                        <legend class="form__title-box">Выбор модели</legend>
+                        <label for="model" id="model" class="form__label">Модель</label>
+                            <select name="" id="model" class="form__select">
+                                <option value="iPhone 13">iPhone 13</option>
+                                <option value="iPhone 13 mini">iPhone 13 mini</option>
+                                <option value="iPhone 13 Pro">iPhone 13 Pro</option>
+                                <option value="13 Pro Max">13 Pro Max</option>
+                            </select>
+                            <label for="color" class="form__label">Цвет</label>
+                            <select name="color" id="color" class="form__select">
+                                <option value="Pearl">Pearl</option>
+                                <option value="Graphite">Graphite</option>
+                                <option value="Sunset Gold">Sunset Gold</option>
+                                <option value="Rose Gold">Rose Gold</option>
+                            </select>
+                    </fieldset>
+                    <fieldset class="form__box">
+                        <legend class="form__title-box">Аксессуары</legend>
+                        <label class="form__label checkbox">
+                            <input type="checkbox" name="accessories" id="case">Чехол
+                        </label>
+                        <label class="form__label checkbox">
+                            <input type="checkbox" name="accessories" id="case">Наушники AirPods 3 
+                        </label>
+                        <label class="form__label checkbox">
+                            <input type="checkbox" name="accessories" id="case">Защитное стекло
+                        </label>
+                        <label class="form__label checkbox">
+                            <input type="checkbox" name="accessories" id="case">Зарядное устройство MagSafe
+                        </label>
+                    </fieldset>
+                    <button type="submit" class="form__submit btn">Оформить</button>
+                </form>
             </div>
         </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+        <div class="container">
+            <span>© iPhone 13 Promo, 2021</span>
+            <span>Design by Anastasia Ilina</span>
+            <a href="mailto:ilina9825@gmail.com">ilina9825@gmail.com</a>
+        </div>
+    </footer>
 </body>
 </html>
