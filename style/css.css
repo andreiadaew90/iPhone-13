@@ -59,7 +59,7 @@ body{
     font-family: 'SF UI Text',sans-serif;
     min-width: 320px;
     min-height: 100%;
-    font-size: 20p  x;
+    font-size: 20px;
     font-weight: 500;
     background-color:  #ffffff;
     color: #000000;
@@ -68,4 +68,24 @@ body{
 .container{
     max-width: 1290px;
     padding: 0 15px;
+    margin: 0 auto;
+}
+.header{
+    padding: 40px 0;
+    margin-bottom: 90px;
+}
+.header__container{
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navigation{
+    font-weight: 400;
+    line-height: 24px;
+}
+.navigation__list{
+    display: flex;
+    flex-wrap: wrap;
 }
