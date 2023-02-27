@@ -80,6 +80,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    align-items: center;
 }
 .navigation{
     font-weight: 400;
@@ -88,4 +89,18 @@ body{
 .navigation__list{
     display: flex;
     flex-wrap: wrap;
+}
+.navigation__item:not(:last-child){
+    position: relative;
+    margin-right: 50px;
+}
+.navigation__item:not(:last-child)::after{
+    position: absolute;
+    display: block;
+    content: '';
+    right: -25px;
+    top: -5px;
+    width: 1px;
+    height: 40px;
+    background-color: #C9C9C9;
 }
