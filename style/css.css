@@ -119,6 +119,7 @@ body{
 }
 @media (max-width:680px) {
     .header{
+        padding: 24px 0;
         margin-bottom: 24px;
     }
     .header__container{
@@ -135,9 +136,32 @@ body{
         margin-right: 0;
     }
 }
+
 .offer__container{
     text-align: center;
+    background-image: url('../images/phones.jpg');
+    background-repeat: no-repeat;
+    min-height: 800px;
+    background-position: bottom;
+    margin: 0 -15px;
 }
+.offer_main-title{
+    font-weight: 400;
+    margin-bottom: 24px;
+    line-height: 24px;
+} 
+.offer__title{
+    font-size: 34px;
+    line-height: 41px;
+    margin-bottom: 24px;
+}
+.offer__price{
+    display: block;
+    font-weight: 300;
+    margin-bottom: 32px;
+    line-height: 24px;
+}
+
 .btn{
     display: block;
     cursor: pointer;
@@ -148,4 +172,18 @@ body{
     padding: 18px 23px;
     border: none;
     line-height: 24px;
+}
+@media (max-width:320px) {
+    .header{
+        margin-bottom: 12px;
+    }
+    .offer__container{
+        background-size: 946px;
+    }
+    .offer_main-title{
+        margin-bottom: 12px;
+    }
+    .offer_main-title{
+        margin-bottom: 12px;
+    }
 }
