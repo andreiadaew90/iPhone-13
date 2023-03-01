@@ -52,7 +52,8 @@ h2,
 h3,
 h4,
 p,
-figure{
+figure,
+fieldset {
     margin: 0;
 }
 body{
@@ -232,4 +233,48 @@ body{
 }
 .features__item img{
     margin-bottom: 35px;
+}
+@media (max-width:1320px){
+    .features__list{
+        justify-content: center;
+    }
+    .features__item:first-child,
+    .features__item:nth-child(4n){
+        margin-left: 15px;
+    }
+    .features__item:nth-child(3n){
+        margin-right: 15px;
+    }
+}
+/* делаю форму */
+.order__title{
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.form__box{
+    width: 630px;
+    padding: 70px 80px 100px;
+    border: 1px solid #C9C9C9;
+    border-radius: 34px;
+
+}
+.form__box:nth-child(2n+1){
+    margin-right: 15px;
+}
+.form__box:nth-child(2n){
+    margin-left: 15px;
+}
+
+.form__title-box{
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 40px;
+    color: #C9C9C9;
 }
