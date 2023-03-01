@@ -53,7 +53,7 @@ h3,
 h4,
 p,
 figure,
-fieldset {
+fieldset{
     margin: 0;
 }
 body{
@@ -175,20 +175,7 @@ body{
     border: none;
     line-height: 24px;
 }
-@media (max-width:320px) {
-    .header{
-        margin-bottom: 12px;
-    }
-    .offer__container{
-        background-size: 946px;
-    }
-    .offer_main-title{
-        margin-bottom: 12px;
-    }
-    .offer_main-title{
-        margin-bottom: 12px;
-    }
-}
+
 /* начало работы с майн */
 .features__title{
     font-size: 34px;
@@ -277,4 +264,33 @@ body{
     font-size: 34px;
     line-height: 40px;
     color: #C9C9C9;
+}
+@media (max-width:320px) {
+    .header{
+        margin-bottom: 12px;
+    }
+    .offer__container{
+        background-size: 946px;
+    }
+    .offer_main-title{
+        margin-bottom: 12px;
+    }
+    .offer_main-title{
+        margin-bottom: 12px;
+    }
+}
+.form__label{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 16px;
+    display: block;
+    margin-bottom: 16px;
+}
+.form__input{
+    margin-bottom: 50px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    width: 466px;
+    height: 66px;
 }
